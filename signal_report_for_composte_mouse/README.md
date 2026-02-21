@@ -1,7 +1,5 @@
-# arduino_tools
-Набор скриптов и программ для работы с Arduino
-
 # Signal report for composte gaming mouse
+
 Для Arduino Leonardo R3 с Host SHield:
     signal_report_for_composte_mouse  - 
 
@@ -16,10 +14,3 @@ How-To:
     Подключите USB Host Shield + USB-мышь
     Откройте Serial Monitor (115200 baud)
     Двигайте/кликайте мышью что бы увидить сырые данные
-
-# USB Mouse to HID Bridge
-
-Arduino-скетч для преобразования сигналов физической USB-мыши в HID-события с возможностью управления через Serial.
-
-Устройство подключается к USB-мыши через USB Host Shield, парсит HID-отчёты и эмулирует движения/клики через библиотеку HID-Project.
-Дополнительно поддерживает управление по Serial-интерфейсу для программного контроля эмуляции.
